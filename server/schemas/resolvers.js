@@ -71,14 +71,14 @@ const resolvers = {
       throw new AuthenticationError("You need to be logged in!");
     },
 
-    removeBook: async (parent, args, context) => {
-      if(context.user) {
-        filter: $filter {
-          msg
-        }
+    // removeBook: async (parent, args, context) => {
+    //   if(context.user) {
+    //     filter: $filter {
+    //       msg
+    //     }
 
-      }
-    }
+    //   }
+    // }
   },
 };
 
