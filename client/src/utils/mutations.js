@@ -50,5 +50,3 @@ export const SAVE_BOOK = gql`
     }
   }
 `;
-
-// REMOVE_BOOK
